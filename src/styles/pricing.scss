@@ -1,0 +1,114 @@
+.main__section-pricing{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 40px 0 100px 0;
+  &__chapter-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+    &__title{
+      font-family: Inter, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 50px;
+      color: #99EFD0;
+      span{
+        color: #F2994A;
+      }
+    }
+    &__subtitle{
+      font-family: Rubik, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 28px;
+      letter-spacing: 0.5px;
+      color: #8476AA;
+    }
+  }
+  &__chapter-2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .map{
+      position: absolute;
+      width: 100%;
+      z-index: -1;
+      overflow: initial;
+    }
+    &__card{
+      background: #FFFFFF;
+      box-shadow: -8px 16px 60px rgba(82, 114, 139, 0.24);
+      border-radius: 10px;
+      position: relative;
+      img{
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+      }
+      &__title{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 30px;
+        row-gap: 25px;
+        &__row1{
+          h1{
+            font-family: Rubik, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #212B36;
+          }
+          span{
+            font-family: Rubik, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.5px;
+            color: #637381;
+
+          }
+        }
+        &__row2{
+          h1{
+            font-family: Rubik, sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+            color: #13C296;
+          }
+          span{
+            font-family: Rubik, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #98A4AF;
+          }
+        }
+      }
+    }
+    &__card:before{
+      content: url("../images/Path.png");
+      position: absolute;
+      padding: 20px 15px;
+      background-color: #13C296;
+      border-radius: 10px;
+      top: 20%;
+      left: -30px;
+    }
+  }
+}
+
+

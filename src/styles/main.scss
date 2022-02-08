@@ -1,0 +1,123 @@
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__section-about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    &__picture{
+      width: 50%;
+      display: flex;
+      justify-content: left;
+    }
+    &__info{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      &__buttons{
+        display: flex;
+        column-gap: 20px;
+      }
+      &__subtitle{
+        font-family: Rubik, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #8476AA;
+      }
+      &__title{
+        font-family: Inter, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 50px;
+        color: #99EFD0;
+      }
+    }
+  }
+    // Секция где пять логотипов
+  &__section-logotypes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 65px;
+    opacity: 50%;
+  }
+  // Секция Your Choice
+  &__section-your_choice{
+    padding: 140px 0;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    // Your Choice // главный текст и субтайтлы
+    &__titles{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 15px;
+      &__title{
+        font-family: Inter, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        text-align: center;
+        color: #99EFD0;
+      }
+      &__subtitle{
+        font-family: Rubik, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #8476AA;
+      }
+    }
+    // Your Choice // Карты с информацией
+    &__info-cards{
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin-top: 50px;
+      column-gap: 80px;
+      row-gap: 30px;
+      &__cards{
+        width: calc(33.3% - 80px);
+        display: flex;
+        column-gap: 15px;
+        svg{
+          width: 100px;
+          height: 30px;
+        }
+        &__info{
+          display: flex;
+          flex-direction: column;
+          h1{
+            font-family: Rubik, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #99EFD0;
+          }
+          span{
+            font-family: Rubik, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #8476AA;
+          }
+        }
+      }
+    }
+  }
+}
+

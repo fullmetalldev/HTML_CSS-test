@@ -1,0 +1,14 @@
+.main__section-email {
+  width: 100%;
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+  border-radius: 5px;
+}
+.main__section-email__email_block {
+  width: 100%;
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(134px);
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=email.css.map */

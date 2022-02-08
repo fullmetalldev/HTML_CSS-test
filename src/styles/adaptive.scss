@@ -1,0 +1,131 @@
+@media (max-width: 1080px) {
+  body{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .login__form{
+    padding: 50px 20px;
+    .close{
+      top: 10px;
+      right: 20px;
+    }
+  }
+  body{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .login__form input{
+    padding: 18px 110px 18px 10px;
+  }
+  .main__section-logotypes{
+    column-gap: 10px;
+  }
+  .main__section-your_choice__info-cards__cards {
+    width: calc(33.3% - 30px);
+  }
+  .main__section-your_choice__info-cards{
+    column-gap: 30px;
+  }
+  .footer__section-info{
+    flex-wrap: wrap;
+    &__column{
+      width: 50%;
+    }
+  }
+  .main__section-about{
+    flex-wrap: wrap;
+    .main__section-about__info{
+      width: 100%;
+      padding: 100px 0;
+
+    }
+    .main__section-about__picture{
+      width: 100%;
+    }
+  }
+
+}
+@media (max-width: 700px) {
+  .main__section-your_choice{
+    padding: 100px 0;
+  }
+  .main__section-pricing{
+    flex-wrap: wrap;
+    row-gap: 20px;
+    &__chapter-1{
+      width: 100%;
+    }
+    &__chapter-2{
+      width: 100%;
+    }
+  }
+  .login__form input{
+    padding: 18px 50px 18px 10px;
+  }
+
+  .header__menu__login{
+    button{
+      display: none !important;
+    }
+  }
+  .burger{
+    display: block !important;
+  }
+  .main__section-your_choice__info-cards{
+    column-gap: 20px;
+    &__cards{
+      width: calc(50% - 20px);
+    }
+  }
+
+}
+
+@media (max-width: 500px) {
+  .main__section-pricing{
+    padding: 40px 0 40px 0;
+  }
+  .login__form{
+    row-gap: 15px;
+  }
+  .login_label{
+    row-gap: 10px;
+  }
+  .header__menu__navbar li{
+    font-size: 8px;
+  }
+  .main__section-about .main__section-about__info{
+    padding: 40px 0;
+  }
+  .header__menu__navbar{
+    column-gap: 10px;
+  }
+  .main__section-your_choice{
+    padding: 40px;
+  }
+
+  .main__section-email__email_block__label .input_email{
+    padding: 18px 30px 18px 18px;
+  }
+
+  .main__section-your_choice__info-cards__cards{
+    width: 100%;
+  }
+  .footer__section-info__column{
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 380px) {
+  .header__menu__navbar li{
+    font-size: 6px;
+  }
+  .main__section-email__email_block__label .input_email{
+    padding: 18px 0 18px 18px;
+  }
+  .login__form input{
+    padding: 18px 20px 18px 10px;
+  }
+}

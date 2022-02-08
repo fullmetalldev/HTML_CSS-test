@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%) center/cover no-repeat;
+}
+
+.transperent-btn{
+  background-color: transparent !important;
+  color: #F2994A !important;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 25px;
+  background-color: #F2994A;
+  border: 1px solid #F2994A;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+  //font of text
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  &__menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    &__login{
+      display: flex;
+      column-gap: 20px;
+    }
+    &__navbar{
+      display: flex;
+      list-style-type: none;
+      column-gap: 15px;
+      a{
+        text-decoration: none;
+      }
+      li{
+        font-family: Rubik, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #B5B5B5;
+      }
+    }
+  }
+}
+
+.container{
+  width: 100%;
+  max-width: 1080px;
+  justify-content: center;
+}
+
+@import "main";
+@import "pricing";
+@import "email";
+@import "footer";
+@import "login";
+@import "adaptive";
+@import "burger-menu";
